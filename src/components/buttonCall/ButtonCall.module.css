@@ -1,0 +1,23 @@
+.buttonCall {
+  color: var(--brand-white);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 176px;
+  height: 37px;
+  /* border-radius: 50px; */
+  border-radius: calc(Infinity * 1px);
+  background: var(--brand-color-blue-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+
+}
+.buttonCall:hover {
+  transform: scale(1.2);
+}

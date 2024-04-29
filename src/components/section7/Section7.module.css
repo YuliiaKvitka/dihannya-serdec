@@ -1,0 +1,55 @@
+.section {
+  margin-top: 80px;
+  position: relative;
+  margin-bottom: 80px;
+}
+.contacts {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+.img {
+  margin-top: 15px;
+  width: 325px;
+  height: 414px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.job {
+  color: rgb(48, 48, 48);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.name {
+  color: rgb(48, 48, 48);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.section::before {
+  content: url('./../../../public/assets/ua/img-1@1x.png');
+  position: absolute;
+  width: 643px;
+  height: 643px;
+  top: 0;
+  left: 0;
+}
+
+.heart2 {
+  position: absolute;
+  content: '';
+  right: 146px;
+  bottom: 74px;
+}

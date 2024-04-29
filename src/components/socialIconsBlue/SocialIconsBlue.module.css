@@ -1,0 +1,12 @@
+.social {
+  display: flex;
+  gap: 4px;
+  fill: red;
+}
+.link {
+  transition: transform 0.3s;
+  padding: 0.5rem;
+}
+.link:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,120 @@
+.wrapper {
+  margin-top: 100px;
+  position: relative;
+  background-image: image-set(
+    url('./../../../public/assets/bg/bg-sec6@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/assets/bg/bg-sec6@2x.jpeg') type('image/jpeg') 2x
+  );
+  height: 882px;
+  width: 1920px;
+  padding-top: 75px;
+  /* filter: brightness(85%); */
+}
+
+.button {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 244px;
+}
+.wrapper::after {
+  content: '';
+  position: absolute;
+  background-image: url('./../../../public/assets/hero/rec-yellow.png');
+  width: 1920px;
+  height: 130px;
+  top: 752px;
+  left: 0;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  background-image: url('./../../../public/assets/hero/rec-yellow.png');
+  width: 1920px;
+  height: 130px;
+  top: -8px;
+  left: 0;
+  transform: rotate(180deg);
+}
+.bgWhiteReverse {
+  transform: rotate(180deg);
+  position: absolute;
+  content: '';
+  top: -68px;
+  left: 0;
+}
+.bgWhite {
+  position: absolute;
+  content: '';
+  top: 808px;
+  left: 0;
+  z-index: 5;
+}
+.bird3 {
+  content: '';
+  position: absolute;
+  width: 151px;
+  height: 133px;
+  top: 250px;
+  left: 200px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2)
+    );
+}
+.gallery {
+  display: flex;
+  margin: 0 auto;
+  width: 1070px;
+  height: 530px;
+  justify-content: center;
+  /* ------------------------------ */
+  /* border-radius: 20px;
+  /* border: 5px solid var(--brand-color-yellow); */
+  /* border: double 0.1rem transparent;
+
+  background-image: linear-gradient(
+      var(--brand-color-yellow),
+      var(--brand-color-yellow)
+    ),
+    linear-gradient(
+      to right,
+      var(--brand-color-yellow),
+      var(--brand-color-yellow)
+    ); 
+  background-origin: border-box;
+  background-clip: content-box, border-box; */
+  /* --------------------- */
+  border: 10px solid;
+  border-image: linear-gradient(
+      45deg,
+      var(--brand-color-yellow),
+      var(--brand-color-blue-1)
+    )
+    1;
+  clip-path: inset(0px round 20px);
+  animation: huerotate 6s infinite linear;
+}
+
+@keyframes huerotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(10deg);
+  }
+}
+
+.heart3 {
+  position: absolute;
+  content: '';
+  top: 80px;
+  left: 314px;
+  z-index: 10;
+  transform: scale(0.5);
+}

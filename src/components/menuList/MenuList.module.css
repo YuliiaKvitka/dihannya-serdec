@@ -1,0 +1,52 @@
+.menuList {
+  margin-top: 14px;
+  margin-left: 53px;
+  margin-right: 56px;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.itemMenu {
+  padding: 12px;
+  text-decoration: none;
+  flex: 1;
+}
+.itemMenu:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--brand-color-blue-1),
+    var(--brand-color-yellow) 50%,
+    var(--brand-color-blue-2) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.itemMenu::before {
+  content: '';
+  background: var(--brand-color-blue-1);
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  transition: all 0.3s ease;
+}
+.itemMenu:hover {
+  background-position: 0;
+}
+
+.itemMenu:hover::before {
+  width: 100%;
+}

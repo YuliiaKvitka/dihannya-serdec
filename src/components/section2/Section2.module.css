@@ -1,0 +1,39 @@
+.bg {
+  background-image: url('./../../../public/assets/ua/ua.png');
+  width: 1645px;
+  height: 1091px;
+  margin-top: 40px;
+}
+.content {
+  position: relative;
+  padding-top: 80px;
+}
+.wrapper__p {
+  width: 872px;
+  height: 107px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.photo {
+  margin-top: 37px;
+  border-radius: 20px;
+  margin-bottom: 37px;
+}
+.heart1 {
+  position: absolute;
+  content: '';
+  left: 94px;
+  bottom: 122px;
+}
+.heart2 {
+  position: absolute;
+  content: '';
+  right: -400px;
+  bottom: 0px;
+}
+.heart3 {
+  position: absolute;
+  content: '';
+  right: -338px;
+  bottom: -30px;
+}

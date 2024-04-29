@@ -1,0 +1,74 @@
+.footer {
+  position: relative;
+  width: 1920px;
+  /* box-shadow: 0px -6px 20px 0px rgba(0, 0, 0, 0.16); */
+  background: url('./../../../public/assets/hero/rec-white.png');
+  height: 310px;
+  padding-top: 85px;
+  margin-left: 0px;
+  margin-top: 145px;
+}
+.section::after {
+  content: '';
+  position: absolute;
+  background-image: url('./../../../public/assets/hero/rec-yellow.png');
+  background-size: 1920px 310px;
+  width: 1920px;
+  height: 130px;
+  top: 490px;
+  left: 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.logoIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 405px;
+  z-index: 50;
+}
+.menu {
+  margin-left: 53px;
+  z-index: 50;
+}
+.contact {
+  margin-left: 168px;
+  display: flex;
+  flex-direction: column;
+  z-index: 50;
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bgWhite {
+  position: absolute;
+  width: 1920px;
+  height: 310px;
+  content: '';
+  top: 463px;
+  left: 0;
+  z-index: 5;
+}
+.rec {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background: rgb(48, 48, 48);
+  width: 1920px;
+  height: 31px;
+  z-index: 999;
+}
+.footer::before {
+  content: '';
+  position: absolute;
+  background-image: url('./../../../public/assets/footer/footer-yellow@1x.png');
+  width: 1920px;
+  height: 130px;
+  top: -40px;
+  left: 0;
+  z-index: -2;
+}

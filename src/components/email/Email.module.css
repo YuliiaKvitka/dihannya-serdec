@@ -1,0 +1,21 @@
+.email {
+  display: flex;
+  align-items: left;
+}
+
+.emailLink {
+  padding: 5px;
+  transition: transform 0.3s;
+}
+.emailLink:hover {
+  /* transform: scale(1.1); */
+  transform: translateX(-10px);
+}
+.emailLink::before {
+  content: url('./../../../public/assets/email/email.png');
+  animation: bounce 2s infinite;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}

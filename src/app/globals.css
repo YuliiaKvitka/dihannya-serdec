@@ -3,31 +3,86 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-primary: #f5f5f5;
+  --brand-color-blue-1: #3460a9;
+  --brand-color-blue-2: #12ade2;
+  --brand-color-yellow: #ffce00;
+  --brand-color-black: #303030;
+  --brand-white: #ffffff;
+  --brand-color-gray: #d0d0d0;
+  --brand-color-gray-2: #969696;
+  /* -----------NotFound 404----------------- */
+  --c0: #71a1ff;
+  --c1: #4d85f6;
+  --c2: #3b72e2;
+  --c3: #12ade2;
+  --c4: #2151af;
+  --c5: #244483;
+  --c6: #103071;
+  --clr: 1; /* change color from 1 to 12 */
+  --hue: calc(30deg - (30deg * var(--clr)));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.heading2 {
+  color: rgb(48, 48, 48);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.heading2__white {
+  color: var(--brand-white);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.p__text {
+  color: rgb(48, 48, 48);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.p__text__white {
+  color: var(--brand-white);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.pp__text__white {
+  color: rgb(255, 255, 255);
+  font-family: Museo Sans Cyrl;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
+.span_accent {
+  color: var(--brand-color-yellow);
+  font-family: Museo Sans Cyrl;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0 auto;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+/* .container {
+  margin: 0 auto;
+} */

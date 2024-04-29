@@ -1,0 +1,117 @@
+.wrapper {
+  position: relative;
+  background-image: image-set(
+    url('./../../../public/assets/hero/hero-bg@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/assets/hero/hero-bg@2x.jpeg') type('image/jpeg') 2x
+  );
+  width: 1920px;
+  height: 627px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /* filter: brightness(85%); */
+  /* filter: blur(10px); */
+}
+.wrapper::before {
+  content: '';
+  position: absolute;
+  background-image: url('./../../../public/assets/hero/rec-yellow.png');
+  width: 1920px;
+  height: 130px;
+  top: 491px;
+  left: 0;
+}
+.wrapper::after {
+  content: '';
+  position: absolute;
+  background-image: url('./../../../public/assets/hero/rec-white.png');
+  width: 1920px;
+  height: 135.5px;
+  top: 518px;
+  left: 0;
+}
+.bird1 {
+  content: '';
+  position: absolute;
+  top: 320px;
+  right: 440px;
+  /* отражение изображения */
+  -webkit-box-reflect: below 0px
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2)
+    );
+}
+.bird2 {
+  content: '';
+  position: absolute;
+
+  top: 65px;
+  right: 200px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.2)
+    );
+}
+
+.heroContent {
+  padding-top: 85px;
+  display: flex;
+
+  justify-content: center;
+  gap: 37px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 799px;
+}
+.heading1 {
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--brand-white);
+}
+.accent {
+  color: var(--brand-color-yellow);
+}
+.heading2 {
+  color: var(--brand-white);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--brand-white);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  margin-top: 46px;
+  justify-content: center;
+  display: flex;
+  gap: 16px;
+}

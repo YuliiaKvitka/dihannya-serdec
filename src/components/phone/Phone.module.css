@@ -1,0 +1,29 @@
+.phone {
+  display: flex;
+  align-items: left;
+}
+.callLink {
+  padding: 5px;
+  transition: transform 0.3s;
+}
+.callLink:hover {
+  /* transform: scale(1.1); */
+  transform: translateX(-10px);
+}
+.callLink::before {
+  content: url('./../../../public/assets/call/call.png');
+  animation: bounce 2s infinite;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+/* @keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+} */

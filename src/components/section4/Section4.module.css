@@ -1,0 +1,45 @@
+.section {
+  margin-top: 90px;
+  position: relative;
+}
+.slider {
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-top: 40px;
+  margin-left: 244px;
+}
+.heart {
+  position: absolute;
+  content: '';
+  top: 656px;
+  left: 111px;
+  width: 81px;
+  height: 82px;
+}
+.heart1 {
+  position: absolute;
+  content: '';
+  top: 28px;
+  right: 111px;
+  width: 51px;
+  height: 52px;
+}
+.heart2 {
+  position: absolute;
+  content: '';
+  top: 958px;
+  right: 111px;
+  width: 100px;
+  height: 88px;
+}

@@ -1,0 +1,28 @@
+.button {
+  background: radial-gradient(
+    circle,
+    var(--brand-color-blue-2),
+    var(--brand-color-blue-1)
+  );
+
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+
+  color: var(--brand-white);
+  font-family: Museo Sans Cyrl, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 176px;
+  height: 37px;
+  border-radius: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
