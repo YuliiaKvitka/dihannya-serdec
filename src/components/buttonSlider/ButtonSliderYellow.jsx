@@ -1,9 +1,15 @@
 import styles from './ButtonSlider.module.css';
 
-const ButtonSliderYellow = ({ href }) => {
+const ButtonSliderYellow = ({ align = 'center', href }) => {
+  const buttonClass =
+    align === 'center'
+      ? styles.centered
+      : align === 'left'
+      ? styles.leftAligned
+      : '';
   return (
     <a href={href}>
-      <div className={styles.buttonYellow}>Допомогти</div>
+      <div className={`${styles.buttonYellow} ${buttonClass}`}>Допомогти</div>
     </a>
   );
 };

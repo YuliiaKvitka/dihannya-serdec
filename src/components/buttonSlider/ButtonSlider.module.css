@@ -22,7 +22,6 @@
   color: rgb(48, 48, 48);
 }
 .buttonYellow {
-  margin: 0 auto;
   width: 292px;
   height: 40px;
   border-radius: 50px;
@@ -43,4 +42,11 @@
 .buttonYellow:hover {
   background: rgb(52, 96, 169);
   color: rgb(255, 255, 255);
+}
+.centered {
+  margin: 0 auto;
+}
+
+.leftAligned {
+  margin: 0; /* Прижать к левому краю */
 }

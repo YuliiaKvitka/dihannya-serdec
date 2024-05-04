@@ -23,7 +23,7 @@ const Card = props => {
           <p className={styles.card_desc}>{props.desc}</p>
         </div>
         <div className={styles.block_btn}>
-          <ButtonSliderYellow href='/#contacts' />
+          <ButtonSliderYellow align='center' href='/#contacts' />
           <Link href={`/projects/${props.id}`} text={props.text}>
             <ButtonSliderBlue />
           </Link>

@@ -16,22 +16,57 @@ const Gallery = () => {
       <div className={styles.wrapper}>
         <Pagination />
         <div className={styles.photoBlock}>
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
-          <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            {' '}
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            {' '}
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
+          <div className={styles.cartImg}>
+            {' '}
+            <Image className={styles.img} src={Img11} srcSet={Img12} alt='' />
+          </div>
         </div>
         <div className={styles.block_arrow_bottom}>
           <Pagination />

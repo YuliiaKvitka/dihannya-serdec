@@ -21,11 +21,24 @@
   gap: 30px;
   justify-content: space-between;
 }
+.cartImg {
+}
+.cartImg:hover {
+  .img {
+    transform: scale(1.1);
+    transition: 3s;
+  }
+}
 .img {
   box-sizing: border-box;
   border: 1px solid var(--brand-color-gray-2);
   border-radius: 10px;
 }
+&.img:hover {
+  transform: scale(1.1);
+  transition: 3s;
+}
+
 .wrapper {
   position: relative;
   padding-top: 40px;

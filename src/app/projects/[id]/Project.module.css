@@ -1,0 +1,38 @@
+.block {
+  margin-left: 417px;
+  margin-top: 54px;
+  margin-right: 388px;
+}
+.title {
+  color: rgb(48, 48, 48);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.hr_block {
+  position: relative;
+  width: 645px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hr_block:after {
+  position: absolute;
+  content: '';
+  width: 56px;
+  height: 5px;
+  background-color: var(--brand-color-blue-1);
+  left: 0px;
+  top: -1px;
+}
+.desc {
+  margin-top: 22px;
+}
+.btnLeft {
+  margin-top: 37px;
+  margin-bottom: 56px;
+}

@@ -45,17 +45,15 @@ const SliderProjects = () => {
         <div className={styles.slider}>
           {slides.map(item => (
             <>
-              <Link key={item.id} href={`/projects/${item.id}`}>
-                <Card
-                  key={item.id}
-                  img={item.img}
-                  imgBig={item.imgBig}
-                  title={item.title}
-                  desc={item.desc}
-                  projectId={item.projectId}
-                  text={item.text}
-                />
-              </Link>
+              <Card
+                key={item.id}
+                img={item.img}
+                imgBig={item.imgBig}
+                title={item.title}
+                desc={item.desc}
+                projectId={item.projectId}
+                text={item.text}
+              />
             </>
           ))}
         </div>

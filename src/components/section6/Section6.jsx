@@ -88,9 +88,7 @@ const Section6 = () => {
       </div>
 
       <div className={styles.button}>
-        <Link href='/gallery'>
-          <ButtonAnimation title='Галерея фото' />
-        </Link>
+        <ButtonAnimation href='/gallery' title='Галерея фото' />
       </div>
     </section>
   );
